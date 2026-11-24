@@ -1,0 +1,12 @@
+{
+  "name": "idempotent-webhooks",
+  "version": "0.1.0",
+  "description": "Idempotency keys and signed webhooks for Node.js — the pattern behind 'a door must never open twice'.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22.6" },
+  "scripts": {
+    "test": "node --test test/**/*.test.ts",
+    "example": "node examples/door.ts"
+  }
+}
